@@ -1,0 +1,37 @@
+body{
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	height: 100%;
+	width: 100%;
+	
+	border: solid 1px;
+}
+
+#banner{
+	padding-top: 60px;
+	text-align: center;
+	height: 150px;
+	width: 100%;
+	border: solid 1px;
+	margin-bottom: 10px;
+}
+
+
+
+#conteudo {
+	margin-top: 10px;
+	border: solid 1px;
+}
+
+#conteudo p{
+	text-align: center;
+}
+
+#footer{
+	text-align: right;
+
+}
+
