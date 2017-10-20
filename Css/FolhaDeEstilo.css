@@ -1,37 +1,75 @@
 body{
 	padding: 10px;
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 	height: 100%;
 	width: 100%;
+	border: solid 5px;
 	
-	border: solid 1px;
 }
 
-#banner{
-	padding-top: 60px;
+.banner{
+	padding-top: 120px;
 	text-align: center;
 	height: 150px;
 	width: 100%;
 	border: solid 1px;
 	margin-bottom: 10px;
+	background-image: url(../Imagens/noma.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: black;
 }
 
 
 
-#conteudo {
+.conteudo {
 	margin-top: 10px;
 	border: solid 1px;
 }
 
-#conteudo p{
+.conteudo p{
 	text-align: center;
+	height: 500px;
 }
 
-#footer{
+.footer{
+	background-color: #222;
+	color:#fff;
+	margin-top: 10px;
+	padding-top: 10px;
+
+}
+
+.bottom-footer{
+	border-top: 1px solid #b2b2b2;
+	margin-top: 10px;
+	padding-top: 10px;
+	color: #b2b2b2;
+
+}
+
+.footer-menu {
 	text-align: right;
+	list-style: none;
 
 }
 
+.footer-menu li{
+	display: inline;
+}
+.footer-menu li:not(:first-child):before{
+	content: '|';
+	padding:0px 10px;
+}
+
+.footer-menu a{
+	color: #b2b2b2;
+}
+
+.footer-menu a:hover{
+	color: #fff;
+	text-decoration: none;
+}
