@@ -1,7 +1,14 @@
-function resizeWin() {
-	var myWindow = window.open("","","resizable=no, menubar=no, width=200,height=100",true);
-	window.close();
+jQuery(document).ready(function($){
+	//
+	var path = window.location.pathname.split("/").pop();
 
-    
-    myWindow.focus();
-}
+	//
+	if( path == ''){
+		path = 'index.php';
+	}
+
+
+	var target = $('nav a[href="'+path+'"]');
+	target.addClass('active');
+
+});
