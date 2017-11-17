@@ -67,7 +67,7 @@
       			<a class="navbar-brand" href="index.php">Estudio Noma</a>
    		  	</div>
 			<ul class="nav navbar-nav" id="nav-menu">
-				<li class="active"><a href="#" data-target="home">Home</a>
+				<!--<li class="active"><a href="#" data-target="home">Home</a> -->
 
 				<li class="dropdown" ><a class="dropdown-toggle" data-toggle="dropdown" href="#">Cliente <span class="caret"></span></a>
 					<ul class="dropdown-menu">
