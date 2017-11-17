@@ -46,12 +46,13 @@
 					// Adiciona o conteudo na parte selecionada anteriormente
 					area_conteudo.load(target + '.php');
 				});
+
 		}); 
 	</script> 
 	
 
 </head>
-<body id="teste">
+<body>
 
 	<!-- BANNER -->
 	<header class="banner">
@@ -67,11 +68,32 @@
    		  	</div>
 			<ul class="nav navbar-nav" id="nav-menu">
 				<li class="active"><a href="#" data-target="home">Home</a>
-				<li ><a href="#" data-target="cliente">Cliente</a></li>
-				<li ><a href="#" data-target="funcionarios">Funcionarios</a></li>
-				<li ><a href="#" data-target="agenda">Agenda</a></li>
+
+				<li class="dropdown" ><a class="dropdown-toggle" data-toggle="dropdown" href="#">Cliente <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#" data-target="clientes_cadastro">Cadastrar Cliente</a></li>
+						<li><a href="#" data-target="clientes_pesquisar">Pesquisar Cliente</a></li>
+					</ul>
+				</li>
+
+				<li class="dropdown" ><a class="dropdown-toggle" data-toggle="dropdown" href="#">Funcionario <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#" data-target="funcionarios_cadastro">Cadastrar Funcionario</a></li>
+						<li><a href="#" data-target="funcionarios_pesquisar">Pesquisar Funcionario</a></li>
+					</ul>
+				</li>
+
+				<li class="dropdown" ><a class="dropdown-toggle" data-toggle="dropdown" href="#">Estoque <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#" data-target="produtos_cadastro">Cadastrar Produto</a></li>
+						<li><a href="#" data-target="produtos_pesquisar">Pesquisar Produto</a></li>
+					</ul>
+				</li>
+
+				
 				<li ><a href="#" data-target="financeiro">Financeiro</a></li>
-				<li ><a href="#" data-target="Estoque">Estoque</a></li>
+
+				<li ><a href="#" data-target="agenda">Agenda</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
       			<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -106,6 +128,10 @@
 		</div>
 	</footer>
 	<!--FIM DO FOOTER -->
+
+	<script>
+		
+	</script>
 
 </body>
 </html>

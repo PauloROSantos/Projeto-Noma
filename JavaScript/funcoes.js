@@ -1,14 +1,5 @@
-jQuery(document).ready(function($){
-	//
-	var path = window.location.pathname.split("/").pop();
-
-	//
-	if( path == ''){
-		path = 'index.php';
-	}
-
-
-	var target = $('nav a[href="'+path+'"]');
-	target.addClass('active');
-
+$('ul#nav-menu ul li.dropdown').hover(function() {
+	$(this).find('dropdown-menu').fadeIn(500);
+}, function() {
+	$(this).find('dropdown-menu').fadeOut(500);
 });

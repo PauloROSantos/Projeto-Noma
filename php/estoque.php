@@ -1,1 +1,1 @@
-<p>Estoque</p>
+<p>Produtos</p>
